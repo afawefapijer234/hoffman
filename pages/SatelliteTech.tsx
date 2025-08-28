@@ -193,14 +193,6 @@ function SatelliteHeroSection({ navigation, onNavigate, onBackToHome }: {
                   ease: "easeInOut" 
                 }}
               />
-              
-              {/* Satellite Beam Effect */}
-              <motion.div
-                className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-[#c8b04e] to-transparent"
-                style={{ height: '300px' }}
-                animate={{ opacity: [0.5, 1, 0.5] }}
-                transition={{ duration: 2, repeat: Infinity }}
-              />
             </div>
 
             {/* Floating Data Points */}
