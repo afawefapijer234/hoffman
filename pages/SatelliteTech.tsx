@@ -31,7 +31,7 @@ function SatelliteNavigationHeader({ navigation, onNavigate, onBackToHome }: {
           <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-4">
           <a
-            href="https://YOUR-WEBFLOW-DOMAIN.com"
+            href="https://hoffman-holding.webflow.io/"
             target="_top"
             rel="noopener noreferrer"
             className="text-white hover:text-[#c8b04e] transition-colors text-xl font-semibold"
