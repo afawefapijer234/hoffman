@@ -29,12 +29,18 @@ function SatelliteNavigationHeader({ navigation, onNavigate, onBackToHome }: {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-4">
-            <button 
-              onClick={onBackToHome}
-              className="text-white hover:text-[#c8b04e] transition-colors text-xl font-semibold"
-            >
-              Hoffman Holdings
-            </button>
+          <div className="flex items-center space-x-4">
+          <a
+            href="https://YOUR-WEBFLOW-DOMAIN.com"
+            target="_top"
+            rel="noopener noreferrer"
+            className="text-white hover:text-[#c8b04e] transition-colors text-xl font-semibold"
+          >
+            Hoffman Holdings
+          </a>
+          <div className="w-px h-6 bg-white/20"></div>
+          <div className="text-[#c8b04e] text-lg font-medium">Exploration Technologies</div>
+        </div>
             <div className="w-px h-6 bg-white/20"></div>
             <div className="text-[#c8b04e] text-lg font-medium">Exploration Technologies</div>
           </div>
