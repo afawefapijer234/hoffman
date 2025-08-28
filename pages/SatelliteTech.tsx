@@ -41,8 +41,6 @@ function SatelliteNavigationHeader({ navigation, onNavigate, onBackToHome }: {
           <div className="w-px h-6 bg-white/20"></div>
           <div className="text-[#c8b04e] text-lg font-medium">Exploration Technologies</div>
         </div>
-            <div className="w-px h-6 bg-white/20"></div>
-            <div className="text-[#c8b04e] text-lg font-medium">Exploration Technologies</div>
           </div>
           
           {/* Navigation Menu */}
